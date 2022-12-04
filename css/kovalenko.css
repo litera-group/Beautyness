@@ -167,6 +167,7 @@ justify-content: space-around;
   height: 200px;
 text-align: center;
 margin-bottom: 30px;
+margin-top: 30px;
 }
 .header-services p em{
   width: 100%;
@@ -174,6 +175,7 @@ color: #5C8692;
 font-weight: 400;
 font-size: 15px;
 text-align: center;
+text-transform: uppercase;
 }
 .header-services p{
   margin-top: 20px;
@@ -184,7 +186,7 @@ text-align: center;
 /*section-4*/
 .container-page-4{
   width: 1200px;
-  height: 1513px;
+  height: 1370px;
   margin: 0 auto;
   background-color: #fcfcfc;
 
@@ -302,4 +304,180 @@ text-align: center;
   position: relative;
   top: -750px;
   left: 563px;
+}
+/*section-5*/
+.container-page-5 {
+  width: 1440px;
+  height: 655px;
+  background-color: #EBF3F5;
+}
+.container-page-5 .header-services{
+  width: 1440px;
+  height: 150px;
+}
+.feedback-field{
+  width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.feedback{
+  width: 530px;
+}
+.text-itself{
+  height: 180px;
+  background-color: white;
+}
+.text-itself p {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 32px;
+  color: #141414;
+  padding: 25px;
+}
+.image-with-stars{
+  width: 530px;
+  height: 130px;
+  background-color: #1E2C30;
+  color: white;
+}
+.image-with-stars p{
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  color: #FFFFFF;
+  margin-top: 10px;
+}
+.image-with-stars p em{
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+.image-with-stars img{
+  margin-top: 20px;
+}
+.feedbacker-with-photo img{
+  margin: 20px;
+  float: left;
+}
+.brackets-in-feedback{
+  position: relative;
+  top: -76px;
+  left: 311px;
+}
+/*section-6*/
+.container-page-6{
+  width: 1440px;
+  height: 623px;
+}
+.container-page-6 .header-services{
+  height: 130px;
+}
+.page-6-content{
+  width: 1200px;
+  margin: 0 auto;
+}
+.area-with-checkboxes{
+  width: 1200px;
+  height: 530px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.checkbox-with-image{
+  width: 366px;
+  height: 196px;
+}
+.checkbox-with-image p{
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #555555;
+  margin-top: 13px;
+}
+.checkbox-with-image p em{
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  color: #141414;
+  margin-top: 13px;
+}
+/*section-7*/
+.container-page-7{
+  width: 1440px;
+  height: 828.78;
+}
+.page-7-content{
+  width: 1200px;
+  margin: 0 auto;
+}
+.page-7-content .header-services{
+  height: 80px;
+}
+.page-7-content .pictures-container{
+  background-color: #EBF3F5;
+}
+.page-7-content .page-2-text-description h3{
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 31px;
+  color: #141414;
+  padding-left: 20px;
+}
+.page-7-content .page-2-text-description p{
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #555555;
+  margin-top: 14px;
+  padding-left: 20px;
+}
+.page-7-content .pictures{
+  height: 450px;
+}
+.page-7-content .button{
+  width: 220px;
+  height: 50px;
+  border: 3px solid #5C8692;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 30px;
+  margin-left: 490px;
+}
+.page-7-content .button a{
+  color:black;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+}
+/*footer*/
+.footer{
+  width: 1440px;
+  margin: 0 auto;
+  background-color: #111E22;
+  text-align: center;
+}
+.footer h2{
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  color: #FFFFFF;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
